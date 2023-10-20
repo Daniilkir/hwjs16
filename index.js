@@ -1,37 +1,6 @@
-const users = [
-    {
-      name: "John Doe",
-      email: "johndoe@example.com",
-      gender: "male",
-      isActive: true,
-      age: 28,
-      eyeColor: "blue"
-    },
-    {
-      name: "Jane Smith",
-      email: "janesmith@example.com",
-      gender: "female",
-      isActive: false,
-      age: 32,
-      eyeColor: "green"
-    },
-    {
-        name: "Bob Johnson",
-        email: "bobjohnson@example.com",
-        eyeColor: "brown",
-        gender: "male",
-        isActive: true,
-        age: 28,
-      },
-      {
-        name: "Alice Brown",
-        email: "alicebrown@example.com",
-        eyeColor: "green",
-        gender: "female",
-        isActive: true,
-        age: 32,
-      }
-  ];
+import users from "/users.js"
+
+
 
 const getUserNames = (users) => {
   return users.map(user => user.name);
